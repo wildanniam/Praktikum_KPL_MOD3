@@ -41,6 +41,7 @@
             angka0 = new Button();
             samaDengan = new Button();
             angka9 = new Button();
+            clear = new Button();
             SuspendLayout();
             // 
             // textInput
@@ -171,11 +172,22 @@
             angka9.UseVisualStyleBackColor = true;
             angka9.Click += angka9_Click;
             // 
+            // clear
+            // 
+            clear.Location = new Point(330, 272);
+            clear.Name = "clear";
+            clear.Size = new Size(73, 31);
+            clear.TabIndex = 4;
+            clear.Text = "C";
+            clear.UseVisualStyleBackColor = true;
+            clear.Click += clear_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(clear);
             Controls.Add(angka9);
             Controls.Add(samaDengan);
             Controls.Add(angka6);
@@ -211,5 +223,6 @@
         private Button angka0;
         private Button samaDengan;
         private Button angka9;
+        private Button clear;
     }
 }

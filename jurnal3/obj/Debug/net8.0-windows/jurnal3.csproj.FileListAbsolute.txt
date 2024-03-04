@@ -14,3 +14,4 @@ D:\mod3\jurnal3\jurnal3\obj\Debug\net8.0-windows\refint\jurnal3.dll
 D:\mod3\jurnal3\jurnal3\obj\Debug\net8.0-windows\jurnal3.pdb
 D:\mod3\jurnal3\jurnal3\obj\Debug\net8.0-windows\jurnal3.genruntimeconfig.cache
 D:\mod3\jurnal3\jurnal3\obj\Debug\net8.0-windows\ref\jurnal3.dll
+D:\mod3\jurnal3\jurnal3\obj\Debug\net8.0-windows\jurnal3.sourcelink.json

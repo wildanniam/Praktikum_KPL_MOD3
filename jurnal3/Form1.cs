@@ -78,13 +78,18 @@ namespace jurnal3
             b = Int32.Parse(textInput.Text);
             int hasil = a + b;
             textInput.Text = hasil.ToString();
-            
-            
+
+
         }
 
         private void angka9_Click(object sender, EventArgs e)
         {
             textInput.Text = textInput.Text + 9;
+        }
+
+        private void clear_Click(object sender, EventArgs e)
+        {
+            textInput.Text = "";
         }
     }
 }
